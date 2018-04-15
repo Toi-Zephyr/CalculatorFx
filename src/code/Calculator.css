@@ -1,0 +1,80 @@
+.root {
+    -fx-background-color: #C6DFE5;
+}
+
+.container {
+    -fx-background-color: antiquewhite;
+    -fx-background-radius: 5px;
+    -fx-min-width: 225px;
+    -fx-min-height: 285px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 26, 0.0 , 0 , 10 );
+}
+
+.hBoxOfLabel {
+    -fx-background-color: white;
+    -fx-min-height: 38px;
+    -fx-min-width: 200px;
+    -fx-padding: 4px;
+    -fx-border-width: 0px;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.3) , 6, 0.0 , 0 , 0 );
+    /*-fx-border-radius: 16px;*/
+    -fx-background-radius: 4px;
+}
+
+.displayLabel {
+    -fx-font-size: 32px;
+    -fx-font-family: ".SF NS Text";
+    -fx-text-fill: #919191;
+}
+
+.cButton {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-width: 0px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#E57E4E, #E07949);
+    -fx-min-width: 42.5px;
+    -fx-min-height: 32px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.3) , 5, 0.0 , 0 , 1 );
+}
+
+.numberButton {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-width: 0px;
+    -fx-background-color: linear-gradient(#FBF9F5, #F0EDE7);
+    -fx-min-width: 42.5px;
+    -fx-min-height: 32px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.25) , 5, 0.0 , 0 , 1 );
+}
+
+.controlButton {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-width: 0px;
+    -fx-background-color: linear-gradient(#FBF9F5, #F0EDE7);
+    -fx-min-width: 42.5px;
+    -fx-min-height: 32px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.25) , 5, 0.0 , 0 , 1 );
+}
+
+.equalButton {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-width: 0px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#8C8F9B, #7C7F8B);
+    -fx-min-width: 42.5px;
+    -fx-min-height: 74px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.25) , 5, 0.0 , 0 , 1 );
+}
+
+.zeroButton {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-width: 0px;
+    -fx-background-color: linear-gradient(#FBF9F5, #F0EDE7);
+    -fx-min-width: 95px;
+    -fx-min-height: 32px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.25) , 5, 0.0 , 0 , 1 );
+}
