@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.VBox?>
+
+
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          alignment="center" hgap="10" vgap="10"
+          styleClass="root">
+
+    <fx:script source="Calculator.js"/>
+
+    <padding>
+        <Insets top="25" right="25" bottom="25" left="25"/>
+    </padding>
+    <gridLinesVisible>false</gridLinesVisible>
+
+    <GridPane xmlns:fx="http://javafx.com/fxml"
+              alignment="center" hgap="10" vgap="10"
+              styleClass="container">
+
+    <VBox alignment="CENTER_RIGHT"
+          GridPane.columnIndex="0" GridPane.rowIndex="0"
+          GridPane.columnSpan="4"
+          styleClass="hBoxOfLabel">
+        <Label text="0" fx:id="displayLabel"
+               styleClass="displayLabel" contentDisplay="RIGHT"/>
+    </VBox>
+
+    <Button text="c" styleClass="cButton"
+            onAction="handleClean(event)"
+            GridPane.columnIndex="0" GridPane.rowIndex="1"
+            GridPane.columnSpan="1"/>
+
+    <Button text="±" styleClass="controlButton"
+            GridPane.columnIndex="1" GridPane.rowIndex="1"
+            GridPane.columnSpan="1"/>
+
+    <Button text="/" styleClass="controlButton"
+            onAction="handleDiv(event)"
+            GridPane.columnIndex="2" GridPane.rowIndex="1"
+            GridPane.columnSpan="1"/>
+
+    <Button text="x" styleClass="controlButton"
+            onAction="handleMul(event)"
+            GridPane.columnIndex="3" GridPane.rowIndex="1"
+            GridPane.columnSpan="1"/>
+
+    <Button text="7" styleClass="numberButton"
+            onAction="handle7(event)"
+            GridPane.columnIndex="0" GridPane.rowIndex="2"
+            GridPane.columnSpan="1"/>
+
+    <Button text="8" styleClass="numberButton"
+            onAction="handle8(event)"
+            GridPane.columnIndex="1" GridPane.rowIndex="2"
+            GridPane.columnSpan="1"/>
+
+    <Button text="9" styleClass="numberButton"
+            onAction="handle9(event)"
+            GridPane.columnIndex="2" GridPane.rowIndex="2"
+            GridPane.columnSpan="1"/>
+
+    <Button text="-" styleClass="controlButton"
+            onAction="handleSub(event)"
+            GridPane.columnIndex="3" GridPane.rowIndex="2"
+            GridPane.columnSpan="1"/>
+
+    <Button text="4" styleClass="numberButton"
+            onAction="handle4(event)"
+            GridPane.columnIndex="0" GridPane.rowIndex="3"
+            GridPane.columnSpan="1"/>
+
+    <Button text="5" styleClass="numberButton"
+            onAction="handle5(event)"
+            GridPane.columnIndex="1" GridPane.rowIndex="3"
+            GridPane.columnSpan="1"/>
+
+    <Button text="6" styleClass="numberButton"
+            onAction="handle6(event)"
+            GridPane.columnIndex="2" GridPane.rowIndex="3"
+            GridPane.columnSpan="1"/>
+
+    <Button text="+" styleClass="controlButton"
+            onAction="handlePlus(event)"
+            GridPane.columnIndex="3" GridPane.rowIndex="3"
+            GridPane.columnSpan="1"/>
+
+    <Button text="1" styleClass="numberButton"
+            onAction="handle1(event)"
+            GridPane.columnIndex="0" GridPane.rowIndex="4"
+            GridPane.columnSpan="1"/>
+
+    <Button text="2" styleClass="numberButton"
+            onAction="handle2(event)"
+            GridPane.columnIndex="1" GridPane.rowIndex="4"
+            GridPane.columnSpan="1"/>
+
+    <Button text="3" styleClass="numberButton"
+            onAction="handle3(event)"
+            GridPane.columnIndex="2" GridPane.rowIndex="4"
+            GridPane.columnSpan="1"/>
+
+    <Button text="=" styleClass="equalButton"
+            onAction="handleEqual(event)"
+            GridPane.columnIndex="3" GridPane.rowIndex="4"
+            GridPane.rowSpan="2"/>
+
+    <!--<Button text="0" styleClass="zeroButton"-->
+    <!--GridPane.columnIndex="0" GridPane.rowIndex="5"-->
+    <!--GridPane.rowSpan="2"/>-->
+
+    <HBox alignment="CENTER"
+          GridPane.columnIndex="0" GridPane.rowIndex="5"
+          GridPane.columnSpan="2">
+        <Button onAction="handle0(event)" styleClass="zeroButton" text="0"/>
+    </HBox>
+
+    <Button text="." styleClass="controlButton"
+            GridPane.columnIndex="2" GridPane.rowIndex="5"
+            GridPane.columnSpan="1"/>
+
+    </GridPane>
+
+    <stylesheets>
+        <URL value="@Calculator.css"/>
+    </stylesheets>
+
+</GridPane>
