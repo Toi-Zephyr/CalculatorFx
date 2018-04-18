@@ -1,6 +1,4 @@
-# ![lYRzi.png](https://s1.ax2x.com/2018/04/18/lYRzi.png)CalculatorFx
-
-![CalculatorFxIcon.png](https://s1.ax2x.com/2018/04/18/lYxCr.png)
+# ![lYwsJ.png](https://s1.ax2x.com/2018/04/18/lYwsJ.png)CalculatorFx
 
 > 一个简朴的计算器
 
