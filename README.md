@@ -1,4 +1,6 @@
-# CalculatorFx
+# ![lYRzi.png](https://s1.ax2x.com/2018/04/18/lYRzi.png)CalculatorFx
+
+![CalculatorFxIcon.png](https://s1.ax2x.com/2018/04/18/lYxCr.png)
 
 > 一个简朴的计算器
 
@@ -12,5 +14,5 @@ $ java -jar Main.jar
 
 ## App预览
 
-![kuV3i.png](https://s1.ax2x.com/2018/04/15/kuV3i.png)
+![CalculatorFxDemo.png](https://s1.ax2x.com/2018/04/18/lYidR.png)
 
