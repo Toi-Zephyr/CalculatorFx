@@ -8,7 +8,7 @@
 
 ## 快速上手
 
-```shell
+```
 $ java -jar Main.jar
 ```
 
